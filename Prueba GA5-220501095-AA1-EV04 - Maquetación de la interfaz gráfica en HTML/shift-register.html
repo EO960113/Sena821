@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Shift-register - HrPro</title>
+        <link rel="stylesheet" href="Styles_02.css">
+    </head>
+<body>
+    <div class="card">
+        <h2>Registro de Turno</h2>
+        <div class="clock" id="clock"></div>
+        <label for="shift">Seleccionar Turno:</label>
+        <select id="shift">
+          <option value="apertura">Turno de Apertura</option>
+          <option value="medio">Turno Medio</option>
+          <option value="cierre">Turno de Cierre</option>
+        </select>
+        <div class="buttons">
+          <button onclick="startShift()">Iniciar Turno</button>
+          <button onclick="endShift()">Finalizar Turno</button>
+        </div>
+        <div id="result"></div>
+      </div>
+      
+      <script src="shift-register.js"></script>
+</body>
+</html>

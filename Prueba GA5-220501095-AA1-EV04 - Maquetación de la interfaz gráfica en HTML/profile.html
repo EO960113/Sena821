@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perfil del Usuario - HrPro</title>
+    <link rel="stylesheet" href="Styles_02.css">
+</head>
+
+<body>
+    <div class="profile-container">
+        <h1>Perfil del Usuario</h1>
+        <p>Aquí puedes actualizar tu información personal.</p>
+
+        <form id="profileForm" class="profile-grid">
+            <div class="column">
+                <label for="firstName">Nombre:</label>
+                <input type="text" id="firstName" name="firstName" placeholder="Ingresa tu nombre" required>
+        
+                <label for="lastName">Apellido:</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Ingresa tu apellido" required>
+        
+                <label for="document">Documento de Identidad:</label>
+                <input type="text" id="document" name="document" placeholder="Ingresa tu documento de identidad" required>
+        
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" placeholder="Ingresa tu correo electrónico" required>
+        
+                <label for="hireDate">Fecha de Contratación:</label>
+                <input type="date" id="hireDate" name="hireDate" required>
+        
+                <label for="area">Área:</label>
+                <input type="text" id="area" name="area" placeholder="Ingresa tu área" required>
+            </div>
+            <div class="column">
+                <label for="secondName">Segundo Nombre:</label>
+                <input type="text" id="secondName" name="secondName" placeholder="Ingresa tu segundo nombre">
+        
+                <label for="secondLastName">Segundo Apellido:</label>
+                <input type="text" id="secondLastName" name="secondLastName" placeholder="Ingresa tu segundo apellido">
+        
+                <label for="birthDate">Fecha de Nacimiento:</label>
+                <input type="date" id="birthDate" name="birthDate" required>
+        
+                <label for="phone">Teléfono:</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ingresa tu teléfono">
+        
+                <label for="position">Cargo:</label>
+                <input type="text" id="position" name="position" placeholder="Ingresa tu cargo" required>
+            </div>
+        </form>
+        
+        
+
+        <div class="extra-links">
+            <p><a href="dashboard.html" aria-label="Volver al menú principal "> Volver al menú principal</a></p>
+        </div>
+    </div>
+
+    <script src="profile.js"></script>
+</body>
+
+</html>
